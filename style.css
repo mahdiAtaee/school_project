@@ -1,0 +1,86 @@
+@font-face {
+    font-family: vazir;
+    src: url("font/Vazir-Black.eot") format("eot");
+}
+@font-face {
+    font-family: vazir;
+    src: url("font/Vazir-Black.ttf") format("ttf");
+}
+@font-face {
+    font-family: vazir;
+    src: url("font/Vazir-Black.woff2") format("woff2");
+}
+@font-face {
+    font-family: vazir;
+    src: url("font/Vazir-Black.woff") format("woff");
+}
+body{
+	direction: rtl;
+}
+.wrapper {
+    /* max-height: 120px; */
+    display: flex;
+    overflow-x: auto;
+	font-family: vazir;
+	border-color: #5835A2;
+	height: 35%;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper .item {
+    min-width: 310px;
+    margin-right: 3%;
+	border-radius: 3%;
+	height: auto;
+
+}
+a{
+	text-align: right;
+	font-size: 20px;
+}
+h5{
+	font-size: 22px;
+	margin-right: 20px;
+	margin-top: 3%;
+	padding-bottom:  5%;
+}
+h3{
+	color: black;
+	font-size: 35px;
+	margin-bottom: 3.5%;
+}
+.card {
+	width: 10%;
+	height: 10%;
+	float: left;
+	margin-left: 20px;
+	border: 0px;
+}
+
+hr {
+	padding-bottom: 10%;
+	width: 80%;
+	margin: auto;
+}
+.item {
+	margin: auto;
+}
+.box{
+	width:90%;
+	height:35%;
+	color:#E8E8E8;
+	border:solid;
+	border-radius:4px;
+	margin: auto;
+}
+.btn{
+	font-size: 50px;
+}
+.card-item{
+	border-color: aqua;
+	border:solid;
+	border: 15px;
+}

@@ -1,0 +1,99 @@
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.eot") format("eot");
+}
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.ttf") format("ttf");
+}
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.woff") format("woff");
+}
+body {
+  direction: rtl;
+}
+#myFooter {
+  background-color: #deb887;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 90%;
+  margin: auto;
+  height: 30%;
+}
+
+#myFooter .footer-copyright {
+  background-color: #deb887;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+#myFooter .footer-copyright p {
+  margin: 10px;
+  color: #000000;
+  font-family: vazir;
+  text-align: center;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+  padding-right: 0;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: #0000cd;
+  font-weight: bold;
+  margin-top: 30px;
+  font-family: vazir;
+  text-align: center;
+}
+
+#myFooter a {
+  color: #000080;
+  text-decoration: none;
+  font-family: vazir;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#myFooter {
+  text-align: right;
+}
+
+#myFooter .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0 0 0;
+}
+
+.namad {
+  margin-top: 3%;
+}
+
+.namad li{
+	display: flex;
+	justify-content: center;
+}
+
+.namad img {
+  width: 110px;
+  height: 110px;
+}
+li a {
+  text-align: center;
+}

@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.eot") format("eot");
+}
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.ttf") format("ttf");
+}
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.woff") format("woff");
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.p-details {
+  padding: 10px;
+  border-radius: 0px;
+  background: #000;
+  color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: vazir;
+}
+
+body {
+  background: #eee;
+  direction: rtl;
+}
+
+.spec span {
+  font-size: 13px;
+}
+
+.spec h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+img {
+  width: 100%;
+  max-height: 400px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.line {
+  background-color: yellow;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  height: 0.2px;
+}
+.ContainerFluid {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.item {
+  margin-bottom: 5%;
+}
+.moshakhasat {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  display: flex;
+  justify-content: center;
+}
+.p-card {
+  /* border: solid;
+  border: 3%; */
+  /* border-color: #8b8b8b; */
+  box-shadow: 0 0 5px 2px #aaa;
+  border-radius: 3%;
+}

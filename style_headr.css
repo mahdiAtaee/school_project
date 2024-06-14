@@ -1,0 +1,160 @@
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.eot") format("eot");
+}
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.ttf") format("ttf");
+}
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.woff") format("woff");
+}
+@font-face {
+  font-family: vazir;
+  src: url("font/Vazir-Black.woff2") format("woff2");
+}
+body {
+  direction: rtl;
+}
+
+/*  هدر  */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+  background-color: #deb887;
+  /* margin-bottom: 2%; */
+}
+.menu svg {
+  color: black;
+  width: 25px;
+  height: 25px;
+  padding: 0px;
+}
+
+.menu .logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.menu .logo a{
+  text-decoration: none;
+  font-family: vazir;
+  color: #454647;
+}
+
+.menu .logo img{
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.btn_user {
+  margin-top: 15%;
+}
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-menu > ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.main-menu > ul > li {
+  float: right;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-menu ul li a {
+  padding: 26px 22px;
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+  color: #454647;
+  font-weight: bold;
+  font-family: vazir;
+}
+.main-menu ul li ul {
+  position: absolute;
+  width: 250px;
+  background: #fff;
+  top: 115px;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  z-index: 999;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.main-menu ul li ul.subset::before{
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: 12px;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+.main-menu ul li ul li {
+  list-style: none;
+  text-align: right;
+}
+.main-menu ul li ul li a {
+  padding: 20px 10px;
+}
+.main-menu ul li ul li:hover {
+  background-color: rgb(238, 236, 236);
+}
+.main-menu > ul > li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  top: 83px;
+}
+
+.fas {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.menu .user-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-left: 1rem;
+}
+
+.menu .user-head a {
+  width: 30px;
+  height: 30px;
+}
