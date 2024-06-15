@@ -12,7 +12,7 @@
 <?php include('headr.php')?>
 <div class="container mt-2">
     <div class="row">
-        <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="item col-12 col-sm-6 col-md-4">
             <div class="p-card">
 				<div ><img src="pic/جنایی/بدخواهی.png" alt="Slide Image"></div>
                 <div class="p-details">
@@ -32,11 +32,11 @@
                             <span>70000 تومان</span>
                         </div>
                     </div>
-                    <a href="#" class="mt-4">ادامه مطلب </a>
+                    <a href="/project/describe.php" class="mt-4">ادامه مطلب </a>
                 </div>
             </div>
         </div>
-        <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="item col-12 col-sm-6 col-md-4">
             <div class="p-card">
 				<div ><img src="pic/جنایی/شاهکارهای شرلک هملز.png" alt="Slide Image"></div>
                 <div class="p-details">
@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="item col-12 col-sm-6 col-md-4">
             <div class="p-card">
 				<div ><img src="pic/جنایی/عمارت سوخته.png" alt="Slide Image"></div>
                 <div class="p-details">
@@ -84,7 +84,7 @@
                 </div>
             </div>
         </div>
-        <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="item col-12 col-sm-6 col-md-4">
                 <div class="p-card">
                     <div ><img src="pic/جنایی/کرم ابریشم.png" alt="Slide Image"></div>
                     <div class="p-details">
@@ -108,7 +108,7 @@
                     </div>
                 </div>
         </div>
-		<div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="item col-12 col-sm-6 col-md-4">
             <div class="p-card">
                     <div ><img src="pic/جنایی/مخمصه.png" alt="Slide Image"></div>
                     <div class="p-details">
@@ -132,7 +132,7 @@
                     </div>
                 </div>
         </div>
-        <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="item col-12 col-sm-6 col-md-4">
             <div class="p-card">
 				<div >
                     <img src="pic/جنایی/هشت قتل حرفه ای.png" alt="Slide Image">
@@ -154,7 +154,7 @@
                                 <span>130000 تومان</span>
                             </div>
                         </div>
-                        <a href="#" class="mt-4">ادامه مطلب </a>
+                        <a href="/project/describe.php" class="mt-4">ادامه مطلب </a>
                 </div>
             </div>
         </div>
