@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
+	<link rel="stylesheet" href="./footer_style.css">
 	<link href="bootstrap/bootstrap.min.css" rel="stylesheet">
 	<script src="bootstrap/bootstrap.min.js"></script>
 	<style>

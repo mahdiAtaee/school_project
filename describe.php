@@ -16,8 +16,8 @@
             <div class="col-12 col-md-3 d-flex align-items-start justify-content-center mt-4">
                 <img src="pic/جنایی/هشت قتل حرفه ای.png" alt="jenahi" class="w-100">
             </div>
-            <div class="col-12 col-md-9 mt-4">
-                <div class="head text-right">
+            <div class="col-12 col-md-9 mt-4 d-flex align-items-center">
+                <div class="col-12 col-md-6 head text-right">
                     <h2 class="h1 vazir">کتاب قتل حرفه ای</h2>
                     <span class="d-flex align-items-center mt-4">
                         <p class="ml-2"><del>1,450,000</del></p>
@@ -31,13 +31,13 @@
                         </div>
                         <p class="vazir mt-4 text-xl">انتشارات : روزبهان</p>
                         <p class="vazir mt-4 text-xl">نویسنده : نادرابرهیمی</p>
-                        <button class="w-100 btn btn-primary fs-2 btn-lg vazir d-flex align-items-center justify-content-center">
+                        <button class="btn btn-primary fs-2 btn-lg vazir d-flex align-items-center justify-content-center">
                             <img src="./pic/add-to-cart.png" alt="add-to-cart" class="white-color">
                             <span class="mr-2">افزودن به سبد خرید</span>
                         </button>
                     </div>
                 </div>
-                <div class="mt-4">
+                <div class="col-12 col-md-6 mt-4">
                     <ul class="p-0">
                         <li class="d-flex align-items-center justify-content-between py-2">
                             <span class="col-6 text-right vazirReg">کد کتاب</span>

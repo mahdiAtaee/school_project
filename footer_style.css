@@ -74,6 +74,10 @@ body {
   text-align: right;
 }
 
+#myFooter ul li{
+  text-align: center;
+}
+
 #myFooter .social {
   display: flex;
   align-items: center;
